@@ -1,0 +1,22 @@
+{
+    "name": "mannysoft/decoration",
+    "authors": [
+        {
+            "name": "Manny Isles.",
+            "email": "mannysoft@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+        
+    },
+    
+    "autoload": {
+	   "files": [
+            "src/Mannysoft/Decoration/Decoration.php"
+        ],
+        "psr-0": {"Mannysoft\\Decoration": "src/"}
+    },
+    
+    "minimum-stability": "dev"
+}
